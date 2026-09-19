@@ -1,0 +1,6 @@
+data/prices/
+data/earnings/
+data/*.xlsx
+data/*.parquet
+__pycache__/
+data/bench_*.csv
