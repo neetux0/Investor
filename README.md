@@ -22,3 +22,6 @@ python3 tools/fetch_earnings.py
 python3 tools/backtest.py
 ```
 `data/prices/` と `data/earnings/` はサイズが大きいためコミットしない。
+  - `backtest_donchian.py` ドンチャン型トレンドフォローの検証（`--prices_dir data/prices10` で10年）
+  - `screen_donchian.py` HH20/LL10・SMA20/55・ATR20 の当日シグナルと保有銘柄の手仕舞い判定
+  - `fetch_prices_long.py` プライム銘柄の10年分日足取得

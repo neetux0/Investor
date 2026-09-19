@@ -4,3 +4,4 @@ data/*.xlsx
 data/*.parquet
 __pycache__/
 data/bench_*.csv
+data/prices10/
